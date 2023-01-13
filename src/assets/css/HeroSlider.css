@@ -1,0 +1,50 @@
+.hero-image {
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: antiquewhite;
+    position: relative;
+}
+
+h3.banner-heading {
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black;
+}
+
+a.shop-now-btn {
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    font-size: 18px!important;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.hero-image::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+h4.banner-main-heading {
+    font-size: 55px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.swiper-button-prev, 
+.swiper-button-next {
+    padding: 5px;
+    display: inline-table!important;
+    color: white!important;
+}

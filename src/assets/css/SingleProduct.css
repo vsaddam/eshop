@@ -1,0 +1,132 @@
+.common-main-wrapper {
+    margin-top: 80px !important;
+}
+
+h2.product-title {
+    text-transform: capitalize;
+}
+
+.single-product-main-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 390px;
+}
+
+.single-product-galley-image figure {
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+}
+
+.single-product-galley-image figure img {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+
+.rating-outer {
+    display: flex;
+}
+
+.rating-outer span {
+    color: #f2f21f;
+}
+
+b.product-review {
+    margin-left: 20px;
+}
+
+.color-variations {
+    display: flex;
+    align-items: center;
+}
+
+.color-variations button {
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.color-list {
+    display: flex;
+}
+
+.color-variations .color-title {
+    margin-right: 20px;
+}
+
+.color-list button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-list button svg {
+    font-size: 13px;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.product-quantity {
+    margin-top: 20px;
+}
+
+.quantity-btn {
+    display: grid;
+    border: 1px solid #f0f0f0;
+    width: 130px;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 40px;
+}
+
+.product-quantity-value {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn button {
+    border: none;
+    outline: none;
+}
+
+.product-addtocart {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    width: 160px;
+    text-align: center;
+}
+
+.product-category-outer.card {
+    width: 300px !important;
+}
+
+.product-addtocart a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.product-addtocart:hover {
+    background-color: white;
+    color: black;
+    height: 42px;
+    border: 1px solid black;
+
+}
+
+.product-addtocart:hover a {
+    color: black !important;
+}
+
+.single-product-breadcrum-wrapper {
+    text-transform: capitalize;
+}
+
+.single-product-breadcrum-wrapper a {
+    color: violet;
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Vidaloka&display=swap');
+@import url('./Signup.css');
+@import url('./Header.css');
+@import url('./Footer.css');
+@import url('./LoginForm.css');
+@import url('./HeroSlider.css');
+@import url('./ProductCategory.css');
+@import url('./productsPage.css');
+@import url('./SingleProduct.css');
+@import url('./shop.css');
+@import url('./Cart.css');
+
+h1 {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 800
+}
+
+h4 {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+a.nav-link {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--bs-navbar-hover-color);
+}
+
+a {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--bs-navbar-hover-color);
+
+}
+
+a:hover {
+    color: #a749ff !important;
+}
+
+a.nav-link:hover {
+    color: #a749ff !important;
+}
+
+a.active.nav-link {
+    color: #a749ff !important;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.layout main {
+    flex-grow: 1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none !important;
+    list-style: none;
+    font-family: 'Rosario', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    color: #000;
+}
+
+
+main {
+    margin-top: 70px;
+}

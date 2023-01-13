@@ -1,0 +1,27 @@
+.flex-container.navbar-nav {
+    width: 100%;
+    justify-content: center;
+}
+
+svg.account_icon {
+    cursor: pointer;
+}
+
+.header-cart-icon-wrapper {
+    position: relative;
+}
+
+span.cart-total--items {
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    top: 0;
+    left: 48px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+}

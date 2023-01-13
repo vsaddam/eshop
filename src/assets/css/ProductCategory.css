@@ -1,0 +1,9 @@
+.product-category-outer.card img {
+    height: 220px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.product-category-outer.card {
+    padding: 20px 10px 0;
+}
