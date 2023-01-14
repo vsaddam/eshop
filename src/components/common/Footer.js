@@ -9,17 +9,17 @@ const Footer = () => {
             <Container className="footer-container">
                 <Row>
                     <Col md={4}>
-                        <p className='footer-logo'><Link to='/'><img src={footerLogo} /></Link></p>
+                        <p className='footer-logo'><Link to='/eshop'><img src={footerLogo} /></Link></p>
                         <p>© 2022 Eshop</p>
                         <p>All Rights Reserved</p>
                     </Col>
                     <Col md={4}>
                         <h4>USEFUL LINKS</h4>
                         <ul>
-                            <li><Link to='/'>Returns</Link></li>
-                            <li><Link to='/'>Support Policy</Link></li>
-                            <li><Link to='/'>Size guide</Link></li>
-                            <li><Link to='/'>FAQs</Link></li>
+                            <li><Link to='/eshop'>Returns</Link></li>
+                            <li><Link to='/eshop'>Support Policy</Link></li>
+                            <li><Link to='/eshop'>Size guide</Link></li>
+                            <li><Link to='/eshop'>FAQs</Link></li>
                         </ul>
                     </Col>
                     <Col md={4}>

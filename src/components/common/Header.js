@@ -29,13 +29,13 @@ const Header = () => {
         <div id="header">
             <Navbar bg="light" expand="lg" className="fixed-top">
                 <Container>
-                    <LinkContainer to='/'>
+                    <LinkContainer to='/eshop'>
                         <Navbar.Brand><img src={logo} alt="img"/></Navbar.Brand>
                     </LinkContainer>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="flex-container">
-                            <LinkContainer to="/">
+                            <LinkContainer to="/eshop">
                                 <Nav.Link>Home</Nav.Link>
                             </LinkContainer>
                             <LinkContainer to="/products">
