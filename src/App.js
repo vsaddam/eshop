@@ -17,7 +17,7 @@ function App() {
         <div className="layout">
             <Router>
                 <Routes>
-                    <Route path="/" exact element={<Home />} />
+                    <Route path="/eshop" exact element={<Home />} />
                     <Route path="/products" exact element={<Products />} />
                     <Route path="/single-product/:name/:id" exact element={<SingleProduct />} />
                     <Route path="/myaccount" element={<MyAccountPage> <MyAccount /> </MyAccountPage>} />
